@@ -361,7 +361,7 @@ export default function Home() {
 
       <div className="absolute left-0 mt-[2500px] z-10 w-full px-0">
         <h2 className="text-[44px] font-montserrat font-semibold text-white relative pl-12">
-          Companies We've Worked With
+          Companies Weapos;ve Worked With
           <div className="absolute bottom-[-8px] left-12 flex w-180">
             <span className="h-[2.5px] bg-white rounded-sm" style={{ width: '95%' }}></span>
             <span className="h-[2.5px] bg-white rounded-sm" style={{ width: '10%', marginLeft: '4px' }}></span>
