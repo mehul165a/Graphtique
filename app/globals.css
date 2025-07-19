@@ -1,6 +1,26 @@
 @import "tailwindcss";
 
+.font-allura {
+  font-family: var(--font-allura);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-alfa-slab-one {
+  font-family: var(--font-alfa-slab-one);
+}
+
+/* Remove this as it's redundant with the variable approach */
+/* .alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+} */
+
 :root {
+  --font-allura: 'Allura', cursive;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-alfa-slab-one: 'Alfa Slab One', serif;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,3 +44,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes infinite-scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .animate-infinite-scroll {
+          animation: infinite-scroll 20s linear infinite;
+          display: inline-flex;
+        }
