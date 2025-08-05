@@ -12,11 +12,6 @@
   font-family: var(--font-alfa-slab-one);
 }
 
-/* Remove this as it's redundant with the variable approach */
-/* .alfa-slab-one-regular {
-  font-family: "Alfa Slab One", serif;
-} */
-
 :root {
   --font-allura: 'Allura', cursive;
   --font-montserrat: 'Montserrat', sans-serif;
@@ -46,10 +41,10 @@ body {
 }
 
 @keyframes infinite-scroll {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
-        }
-        .animate-infinite-scroll {
-          animation: infinite-scroll 20s linear infinite;
-          display: inline-flex;
-        }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-infinite-scroll {
+  animation: infinite-scroll 20s linear infinite;
+  display: inline-flex;
+}
